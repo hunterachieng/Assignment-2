@@ -1,13 +1,14 @@
 fun main(){
-    name()
+    identity()
     var remainder = modulus (22,7)
     println(remainder)
     var addition = add(34,67,12,78)
     println(addition)
     fact()
 }
-fun name (){
-    println("Hunter")
+fun identity (){
+    var name = "Hunter"
+    println("Hello ${name}")
 }
 fun modulus (a:Int, b:Int) : Int{
     var mod = a % b
